@@ -1,0 +1,25 @@
+
+Arvind Surve@DESKTOP-6NHJC52 MINGW32 ~/Desktop/AMEY/youtubeclone (main)
+$ git init
+Initialized empty Git repository in C:/Users/Arvind Surve/Desktop/AMEY/youtubecl
+one/.git/
+
+Arvind Surve@DESKTOP-6NHJC52 MINGW32 ~/Desktop/AMEY/youtubeclone (master)
+$ git add .
+
+$ git status
+
+
+
+Arvind Surve@DESKTOP-6NHJC52 MINGW32 ~/Desktop/AMEY/youtubeclone (master)
+$ git commit -m "fc"
+
+Arvind Surve@DESKTOP-6NHJC52 MINGW32 ~/Desktop/AMEY/youtubeclone (master)
+$ git remote add origin https://github.com/ameys9/yt.git
+
+Arvind Surve@DESKTOP-6NHJC52 MINGW32 ~/Desktop/AMEY/youtubeclone (master)
+$ git branch -M main
+
+Arvind Surve@DESKTOP-6NHJC52 MINGW32 ~/Desktop/AMEY/youtubeclone (main)
+$ git push -u origin main
+
