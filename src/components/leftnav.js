@@ -24,7 +24,7 @@ export const Leftnav = () => {
 
   return (
     <div className={`md:block w-[240px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-10 translate-x-[-240px] md:translate-x-0 transition-all 
-    ${menu ? "translate-x-0" : ""}`}>
+     ${menu ? "translate-x-0" : ""}`}>
     <div className="flex px-5 flex-col">
         {category.map((item)=>{
             return(

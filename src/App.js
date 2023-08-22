@@ -15,8 +15,10 @@ function App() {
             <Header />
             <Routes>
               <Route path="/" element={<Feed />}/>
-              <Route path="" element={<Searchresult/>}/>
-              <Route path="" element={<Videodetail/>}/>
+              
+              <Route path="/searchResult/:searchQuery" element={<Searchresult />}
+                        />
+              <Route path="/video/:id" element={<Videodetail />} />
             </Routes>
           </div>
        </BrowserRouter>

@@ -6,9 +6,11 @@ import { Videocard } from './videocard'
 export const Feed = () => {
 
   const {loading, result} = useContext(Context);
+
   useEffect(()=>{
   document.getElementById("root").classList.remove("custom-h")
-  },[])
+  },[]);
+
   return (
     <div className="flex flex-row h-[calc(100%-56px)]">
       <Leftnav />
